@@ -1,0 +1,12 @@
+#box-a {
+width:150px;
+height: 15px;
+border: red 2px solid;
+box-shadow: 
+transition-timing-function: linear
+transform: translate(50px, 150px)
+
+transition-property-propery: box-shadpw, opacity width height border-radius;
+transition-timing: linear:
+transition-duration:300ms;
+}
