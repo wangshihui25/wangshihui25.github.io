@@ -1,0 +1,21 @@
+
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+body{ 
+    background-image: url(Attachments/background2.jpg); 
+    background-size: cover
+}
+
+
+
+
+h1{
+    font-family: 'Pacifico', cursive;
+    color: rgba(72, 9, 172, 0.911); 
+    
+    text-shadow: 3px 2px rgb(22, 8, 148);
+    font-weight: bold;
+    font-size: 50pt;
+    padding: 1px;
+    margin: 0px;  
+}
