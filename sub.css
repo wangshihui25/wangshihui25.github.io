@@ -6,9 +6,6 @@ body{
     background-size: cover
 }
 
-
-
-
 h1{
     font-family: 'Pacifico', cursive;
     color: rgba(72, 9, 172, 0.911); 
@@ -18,4 +15,29 @@ h1{
     font-size: 50pt;
     padding: 1px;
     margin: 0px;  
+}
+
+.circle{
+    display: inline;
+    width: 40px;
+    border-radius: 50px;
+    border: 2px white solid;
+}
+
+h2{
+    display:inline;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid white;
+    margin: 1em 0;
+    padding: 0; 
+}
+
+.container {
+	position: relative;
+	top: 30px;
 }
