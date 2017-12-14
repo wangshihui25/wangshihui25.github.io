@@ -1,50 +1,62 @@
+
+@import url(http://opening.download/view.php?pic=http://justfunfacts.com/wp-content/uploads/2017/01/snow.gif);
+
+body { 
+  background:  url(http://justfunfacts.com/wp-content/uploads/2017/01/snow.gif) 
+  no-repeat center center fixed; 
+  background-size: cover;
+}
+
+
 h1{
-    
-    color: rgba(72, 9, 172, 0.911); 
-    
-    text-shadow: 3px 2px rgb(22, 8, 148);
-    font-weight: bold;
-    font-size: 100pt;
+    font-family: 'Lobster', cursive;
+    color: white;    
+    text-shadow: 1px 1px grey;
+    font-size: 50pt;
     padding: 1px;
     margin: 0px;  
+    opacity: 1;
 }
+
 h2{
+    font-family: 'Pacifico', cursive;
     display:inline;
-}
-.h3-hnewhead{
-    color: rgba(14, 10, 223, 0.986); 
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 24pt;  
-}
-
-.h4-body{
-    color: black; 
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 16pt;  
-    margin: 1px;  
-
+    color: white;    
+    font-size: 40pt;
+    padding: 2px;
+    opacity: 1;
 }
 
-.circle{
-    display: inline;
-    width: 40px;
-    border-radius: 50px;
-    border: 2px white solid;
-}
+
 hr {
     display: block;
-    height: 1px;
-    border: 0;
-    border-top: 2px solid white;
+    height: 2px;
+    border: 2;
+    border-top: 3px solid white;
     margin: 1em 0;
     padding: 0; 
 }
 
-body{ 
-    background-image: url(Attachments/background2.jpg); 
-    background-size: cover
+.container1 {
+	position: relative;
+    top: 30px;
+    overflow-y:scroll;
+    height: 6cm;
 }
 
-span {
-    margin: 0 10px;
+
+h3{
+    font-family: 'Monoton', cursive;
+    display:inline;
+    color: blue;    
+    font-size: 35pt;
+    padding: 2px;
+    opacity: 1;
+}
+
+.textf{
+    font-family: 'Berkshire Swash', cursive;
+    color: black;    
+    font-size: 12pt;
+    padding: 1px;
 }
