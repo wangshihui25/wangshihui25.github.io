@@ -6,7 +6,7 @@ function updateDisplay() {
 
     console.log("updateDisplay() triggered");
 
-    totalDisplay.innerHTML = multiply(SGD.value, 7);
+    totalDisplay.innerHTML = multiply(SGD.value, 808.02 );
 }
 
 function multiply(a, b) {

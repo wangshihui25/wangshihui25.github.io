@@ -21,7 +21,7 @@
         Seeing the World with Love 
     </h1> 
     
-    <h2> 
+    <h2 style="padding: 0px, 20px"> 
         <em>by Shihui Wang</em>
         <i class="fa fa-heart fa-spin" style="font-size:60px;color:yellow;"></i>
     </h2>
@@ -30,24 +30,24 @@
 <!-- border for start of border -->
 
 
-<div class="container" item-height="">     
+<div class="container" >     
      <div class="jumbotron">
         <div class="row container1">
 
             <div class="col-sm-4">
                 <img src="Attachments/scene.jpg" 
                 class="img-responsive img-circle img-thumbnail circle"
-                style="border: 30px blue">
-
+                style="border: 30px blue 5em">
+ 
             </div>
                         
             <div class="col-sm-8">
                 <h3>Seoul</h3>
 
-                <p class="textf"> 
+                <p > 
                     The birthplace of K-pop and the Korean Wave, Seoul received over 10 million international visitors in 2014, making it the world's 9th most visited city and 4th largest earner in tourism.
                 </p>        
-                <p class="textf">
+                <p >
                     The city offers both <strong><em>heritage experience</strong></em> to the latest <strong><em>pop culture</strong></em>. Seoul contains 5 UNESCO World Heritage Sites: 
                     <ul class="fa-ul textf">
                             <li><i class="fa fa-hand-o-left"></i> Changdeok Palace</li>
@@ -57,7 +57,7 @@
                             <li><i class="fa fa-hand-o-left"></i> Royal Tombs of the Joseon Dynasty</li>
                           </ul> 
                 </p>        
-                <p class="textf">
+                <p >
                     Modern landmarks include:
                     <ul class="fa-ul textf">
                             <li><i class="fa fa-hand-o-right"></i> N Seoul Tower (gold-clad 63 Building)</li>
@@ -75,10 +75,11 @@
 
         <div class="row">
             <div class="col-md-4">
-                <div class="panel panel-default">
+                <div class="panel panel-default" >
                     <div class="panel-heading"> What to do </div>
-                        <div class="panel-body">
+                        <div class="panel-body  container2">
                             <p> 
+                                <i class="fa fa-plane" ></i>
                                 From old to new, explore all that the city has to offer. 
                                 Visit the best shopping districts, the top historical sites, 
                                 and the places with the best views of the city skyline. 
@@ -98,8 +99,9 @@
             <div class="col-md-4">
                 <div class="panel panel-info">
                     <div class="panel-heading"> Where to shop </div>
-                        <div class="panel-body">
+                        <div class="panel-body  container2">
                             <p> 
+                                <i class="fa fa-plane" ></i>
                                 Myeong-dong is Seoul’s shopping mecca and is a must-see for tourists. 
                                 There is a mixture of street stalls and retail outlets selling everything 
                                 from high fashion to casual attire, as well as many Korean cosmetics 
@@ -116,13 +118,14 @@
             <div class="col-md-4">
                 <div class="panel panel-success">
                     <div class="panel-heading"> What to eat </div>
-                        <div class="panel-body">
+                        <div class="panel-body  container2">
                             <div>
                                 <img class="img-responsive" 
                                             src="Attachments/Food.jpg">
                             </div>
                             
-                                <p> 
+                                <p>
+                                <i class="fa fa-plane" ></i> 
                                 With an abundance of food options, Seoul offers everything from 
                                 small traditional street food stands serving basic rice and vegetable 
                                 dishes to up-market restaurants with comprehensive menus. 
@@ -146,21 +149,20 @@
 <h1> Exchange Rate Conversion </h1>
 
 <div class="container">
-    <table class="table table-striped">
-        <tr>
-            <th>SGD <i class="fa fa-usd"></i></th>
-            <th>WON <i class="fa fa-krw"></i> </th>
+    <table class="table table-striped excth">
+        <tr>                    
+            <th  class="exctb">SGD <i class="fa fa-usd"></i></th>
+            <th  class="exctb">WON <i class="fa fa-krw"></i> </th>    
         </tr>
         
         <tr>
-            
-            
-            <td>
-            <input id="SGD" onchange="updateDisplay()" type="number" class="form-control" >
+             
+            <td  width="20%">
+            <input id="SGD" onchange="updateDisplay()" type="number" class="form-control exctb" width="2cm">
              </td>
              
-             <td>
-                <span id="total" type="number">0</span>
+             <td  width="20%">
+                <span id="total" type="number" class="form-control exctb" width="2cm">0</span>
             </td>
                 
             <td>
@@ -226,16 +228,16 @@
 
 <div>               
 <h3>
-        <i class="fa fa-heart fa-spin" style="font-size:60px;color:yellow;"></i>
+        <i class="fa fa-heart fa-spin" style="font-size:60px;color:yellow;align-right;"></i>
         저는 승윤오빠 씨를 좋아합니다 
 </h3>   
 </div> 
     
-<i class="fa fa-plane fa-3x fa-pull-left fa-border" ></i>
 
 
 
-<script src="sub.js"></script>    
+
+<script src="index.js"></script>    
 
         </body>
 

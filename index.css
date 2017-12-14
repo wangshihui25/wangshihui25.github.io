@@ -39,11 +39,18 @@ hr {
 
 .container1 {
 	position: relative;
-    top: 30px;
     overflow-y:scroll;
-    height: 6cm;
+    height: 8cm;
+    padding: 0px;
+    margin: 0px;  
 }
 
+.container2 {
+	position: relative;
+    top: 10px;
+    overflow-y:scroll;
+    height: 15cm;
+}
 
 h3{
     font-family: 'Monoton', cursive;
@@ -59,4 +66,15 @@ h3{
     color: black;    
     font-size: 12pt;
     padding: 1px;
+}
+
+.excth {
+    padding: 2px,2px;
+    padding-right:2em;
+}
+
+.exctb {
+    padding: 2px,2px;
+    color: red;   
+    padding-right: 2em;
 }
