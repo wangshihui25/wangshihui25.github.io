@@ -15,13 +15,20 @@
 <body>
 
     <!-- music -->
-    <embed src="attachments/Better_Place.mp3" autoplay="true" loop="infiniite" hidden="true"> </embed>
+
+
+    
+    <audio id="audio" style="float:right"
+    src="Attachments/Better_Place.mp3" 
+    controls autoplay loop onloadeddata="setHalf"
+    "setHalfVolume()">
+    </audio>
 
     <h1>
         Seeing the World with Love 
     </h1> 
     
-    <h2 style="padding: 0px, 20px"> 
+    <h2> 
         <em>by Shihui Wang</em>
         <i class="fa fa-heart fa-spin" style="font-size:60px;color:yellow;"></i>
     </h2>
@@ -201,6 +208,7 @@
                 <div class="form-group">
                         <div class="input-group input-group-lg">
                             <span class="input-group-addon">
+                                <i class="fa fa-address-card-o" aria-hidden="true"></i>
                             </span>
                             <input type="text" name="coments" id="comments" class="form-control"
                             placeholder="Your comments please" required>    
